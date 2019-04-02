@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\audio_server.clpprj">
+	<settings><PM_URL><![CDATA[C:/open/OSPanel/domains/localhost/upmobile-red/]]></PM_URL><PM_HOME_URL><![CDATA[C:/open/OSPanel/domains/localhost/upmobile-red/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\open\OSPanel\domains\localhost\audio\application\controllers\admin\NewFile.php;C:\open\OSPanel\domains\localhost\audio\application\controllers\admin\Pings.php;C:\open\OSPanel\domains\localhost\audio\uploads\audio;C:\open\OSPanel\domains\localhost\audio\uploads\img;"/><added value=""/><lastopfiles>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\gallery.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\header.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\counter.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\footer.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Ping.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Point.php"/>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\header.php">
+			<error val="3;50;21;50;2502;1;"/>
+			<error val="3;48;17;48;2502;1;"/>
+		</errfile>
+		<errfile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\gallery.php">
+			<error val="26;38;43;38;2502;1;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\fr\rest_controller_lang.php">
+			<todo name="todo translate" pos="105;15"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\ru\rest_controller_lang.php">
+			<todo name="todo translate" pos="105;15"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\Calculate.php">
+			<todo name="todo use queue" pos="3;53"/>
+			<todo name="todo others not bussied" pos="6;63"/>
+			<todo name="todo get first" pos="3;73"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\models\Ion_auth_model.php">
+			<todo name="@TODO to delete in later revision" pos="23;339"/>
+			<todo name="TODO to be removed in later version" pos="5;2731"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Loader.php">
+			<todo name="todo	Figure out a way to move this to the constructor" pos="5;148"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Output.php">
+			<todo name="todo	We need to figure out how to permit headers to be cached." pos="5;209"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_forge.php">
+			<todo name="todo	Remove deprecated $_after option in 3.1+" pos="5;555"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_query_builder.php">
+			<todo name="@todo error" pos="4;2075"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlite3\sqlite3_driver.php">
+			<todo name="todo	Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlite3\sqlite3_forge.php">
+			<todo name="todo	implement drop_column(), modify_column()" pos="5;135"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\string_helper.php">
+			<todo name="todo: remove in 3.1+" pos="19;202"/>
+			<todo name="todo: remove in 3.1+" pos="20;205"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\url_helper.php">
+			<todo name="todo	Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Xmlrpc.php">
+			<todo name="@todo - this needs to be made more general purpose" pos="6;1572"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\drivers\Session_redis_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\drivers\Session_memcached_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\drivers\Session_files_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\drivers\Session_database_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\drivers\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\Session_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\Session.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Session\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\Cache_wincache.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\Cache_redis.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\Cache_memcached.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\Cache_file.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\Cache_dummy.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\Cache_apcu.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\drivers\Cache_apc.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Cache\Cache.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Zip.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Xmlrpcs.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Xmlrpc.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\User_agent.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Upload.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Unit_test.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Typography.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Trackback.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Table.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Profiler.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Parser.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Pagination.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Migration.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Image_lib.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Ftp.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Form_validation.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Encryption.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Encrypt.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Email.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\libraries\Calendar.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\upload_lang.php" crc="1543519751"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\unit_test_lang.php" crc="1543519746"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\profiler_lang.php" crc="1543519743"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\pagination_lang.php" crc="1543519739"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\number_lang.php" crc="1543519735"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\migration_lang.php" crc="1543519732"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\index.html" crc="1543519728"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\imglib_lang.php" crc="1543519724"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\ftp_lang.php" crc="1543519720"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\form_validation_lang.php" crc="1543519716"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\email_lang.php" crc="1543519713"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\db_lang.php" crc="1543519709"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\date_lang.php" crc="1543519705"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\ru\calendar_lang.php" crc="1543519702"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\upload_lang.php" crc="1543519751"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\unit_test_lang.php" crc="1543519746"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\profiler_lang.php" crc="1543519743"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\pagination_lang.php" crc="1543519739"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\number_lang.php" crc="1543519735"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\migration_lang.php" crc="1543519732"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\index.html" crc="1543519728"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\imglib_lang.php" crc="1543519724"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\ftp_lang.php" crc="1543519720"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\form_validation_lang.php" crc="1543519716"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\email_lang.php" crc="1543519713"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\db_lang.php" crc="1543519709"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\date_lang.php" crc="1543519705"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\lv\calendar_lang.php" crc="1543519702"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\upload_lang.php" crc="1543519751"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\unit_test_lang.php" crc="1543519746"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\profiler_lang.php" crc="1543519743"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\pagination_lang.php" crc="1543519739"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\number_lang.php" crc="1543519735"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\migration_lang.php" crc="1543519732"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\index.html" crc="1543519728"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\imglib_lang.php" crc="1543519724"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\ftp_lang.php" crc="1543519720"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\form_validation_lang.php" crc="1543519716"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\email_lang.php" crc="1543519713"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\db_lang.php" crc="1543519709"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\date_lang.php" crc="1543519705"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\fr\calendar_lang.php" crc="1543519702"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\upload_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\unit_test_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\profiler_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\pagination_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\number_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\migration_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\imglib_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\ftp_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\form_validation_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\email_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\db_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\date_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\en\calendar_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\language\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\xml_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\url_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\typography_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\text_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\string_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\security_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\path_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\number_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\language_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\inflector_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\html_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\form_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\file_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\download_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\directory_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\date_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\cookie_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\captcha_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\helpers\array_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\fonts\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlsrv\sqlsrv_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlsrv\sqlsrv_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlsrv\sqlsrv_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlsrv\sqlsrv_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlsrv\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlite3\sqlite3_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlite3\sqlite3_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlite3\sqlite3_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlite3\sqlite3_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\sqlite3\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\postgre\postgre_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\postgre\postgre_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\postgre\postgre_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\postgre\postgre_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\postgre\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_sqlite_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_pgsql_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_odbc_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_odbc_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_oci_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_oci_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_mysql_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_informix_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_informix_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_ibm_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_ibm_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_firebird_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_firebird_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_dblib_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_dblib_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_cubrid_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_cubrid_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_4d_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\pdo_4d_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\subdrivers\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\pdo_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\pdo_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\pdo_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\pdo_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\pdo\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\odbc\odbc_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\odbc\odbc_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\odbc\odbc_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\odbc\odbc_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\odbc\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\oci8\oci8_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\oci8\oci8_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\oci8\oci8_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\oci8\oci8_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\oci8\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysqli\mysqli_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysqli\mysqli_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysqli\mysqli_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysqli\mysqli_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysqli\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysql\mysql_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysql\mysql_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysql\mysql_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysql\mysql_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mysql\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mssql\mssql_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mssql\mssql_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mssql\mssql_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mssql\mssql_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\mssql\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\ibase\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\ibase\ibase_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\ibase\ibase_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\ibase\ibase_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\ibase\ibase_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\cubrid\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\cubrid\cubrid_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\cubrid\cubrid_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\cubrid\cubrid_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\cubrid\cubrid_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\drivers\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_utility.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_result.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_query_builder.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_forge.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_driver.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB_cache.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\database\DB.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\compat\standard.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\compat\password.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\compat\mbstring.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\compat\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\compat\hash.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Utf8.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\URI.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Security.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Router.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Output.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Model.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Log.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Loader.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Input.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Hooks.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Exceptions.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Controller.php" crc="1552982814"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Config.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Common.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\CodeIgniter.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\core\Benchmark.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\system\.htaccess" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\sass\style.scss" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\sass\demo.scss" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\sass\_gdpr-cookie-notice.scss" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\js\templates.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\js\script.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\html\modal.html" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\html\category.html" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\src\html\bar.html" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\langs\ru.js" crc="1550663614"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\langs\nl.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\langs\lv.js" crc="1550663615"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\langs\hu.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\langs\fr.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\langs\en.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\langs\da.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\style.css" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\script.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\dist\demo.css" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\index.html" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\gdpr\gulpfile.js" crc="1550662902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery\jquery.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery\jquery.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\flexslider\jquery.flexslider.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\flexslider\jquery.flexslider-min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\wow.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\own-menu.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\owl.carousel.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\modernizr.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\map.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery.textillate.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery.sticky.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery.magnific-popup.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery.isotope.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery.fatNav.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\jquery.downCount.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\color-switcher.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\vendors\bootstrap.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.video.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.slideanims.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.parallax.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.navigation.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.migration.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.layeranimation.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.kenburn.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.carousel.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\revolution.extension.actions.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\source\index.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.video.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.slideanims.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.parallax.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.navigation.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.migration.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.layeranimation.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.kenburn.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.carousel.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\revolution.extension.actions.min.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\extensions\index.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\uploader.js" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\js\main.js" crc="1550660809"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\fonts\montserrat-fonts.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\fonts\flaticon.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\fonts\flaticon.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\fonts\_flaticon.scss" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\css\style.css" crc="1547985950"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\css\responsive.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\css\main.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\css\ionicons.min.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\css\font-awesome.min.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\css\bootstrap.min.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\static\admin\css\animate.css" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\selector.php" crc="1554105902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\point.php" crc="1554141931"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\login.php" crc="1554143190"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\header.php" crc="1554144753"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\guide.php" crc="1552946075"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\gallery.php" crc="1554145463"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\footer.php" crc="1554144747"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\counter.php" crc="1550659326"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\front\choose_lang.php" crc="1552943798"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\html\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\html\error_php.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\html\error_general.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\html\error_exception.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\html\error_db.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\html\error_404.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\cli\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\cli\error_php.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\cli\error_general.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\cli\error_exception.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\cli\error_db.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\cli\error_404.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\errors\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\email\ticket.php" crc="1546956235"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\email\forgot_password.tpl.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\email\activate.tpl.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\reset_password.php" crc="1547044562"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\login.php" crc="1547041763"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\index.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\forgot_password.php" crc="1547042883"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\edit_user.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\edit_group.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\deactivate_user.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\create_user.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\create_group.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\auth\change_password.php" crc="1547044377"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\video.php" crc="1546963902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\uploader.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\tour_view.php" crc="1547989802"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\tour.php" crc="1549038464"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\table.php" crc="1547226060"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\slider.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\simple_table.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\point_map.php" crc="1554136873"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\payment.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\page.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\mobile.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\login.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\list.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\header.php" crc="1554137264"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\gmap.php" crc="1547151979"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\function_update.php" crc="1547038334"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\form_extended.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\footer.php" crc="1547033406"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\file_upload_multiupload.php" crc="1554135658"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\file_upload.php" crc="1554134623"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\dialog.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\checkout.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\cart.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\admin\body.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\table.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\views\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\userguide\js\jquery.min.js" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\userguide\js\functions.js" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\userguide\userguide.css" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\userguide\index.html" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\third_party\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\models\Ion_auth_model.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\models\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\models\Crudmodel.php" crc="1550054189"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-04-01.php" crc="1554146011"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-29.php" crc="1553843073"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-28.php" crc="1553806904"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-27.php" crc="1553716072"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-26.php" crc="1553590736"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-25.php" crc="1553542683"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-23.php" crc="1553376484"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-22.php" crc="1553274811"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-20.php" crc="1553091417"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-19.php" crc="1553018350"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-18.php" crc="1552946060"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-17.php" crc="1552821554"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-16.php" crc="1552729065"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-15.php" crc="1552646053"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-14.php" crc="1552594767"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-13.php" crc="1552512559"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-12.php" crc="1552411902"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-11.php" crc="1552330739"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-10.php" crc="1552250801"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-09.php" crc="1552169770"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-08.php" crc="1552083140"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-07.php" crc="1551993306"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-06.php" crc="1551911515"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-05.php" crc="1551826031"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-04.php" crc="1551740388"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-03.php" crc="1551649026"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-02.php" crc="1551567574"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-03-01.php" crc="1551477017"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-28.php" crc="1551385409"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-27.php" crc="1551306753"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-26.php" crc="1551213644"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-25.php" crc="1551100447"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-24.php" crc="1551049090"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-23.php" crc="1550962798"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-22.php" crc="1550874721"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-21.php" crc="1550789997"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-20.php" crc="1550687800"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-19.php" crc="1550601862"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-18.php" crc="1550522310"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-17.php" crc="1550428865"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-16.php" crc="1550341032"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-15.php" crc="1550246113"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-14.php" crc="1550173094"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-13.php" crc="1550070525"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-12.php" crc="1550004800"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\logs\log-2019-02-11.php" crc="1549909474"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\State.php" crc="1547837388"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\REST_Controller.php" crc="1549479928"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\Ion_auth.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\InputArray.php" crc="1546933054"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\Format.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\Code.php" crc="1543572946"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\Calculate.php" crc="1547738436"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\libraries\Bcrypt.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\ru\rest_controller_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\ru\ion_auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\ru\front_lang.php" crc="1549906012"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\ru\auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\ru\api_lang.php" crc="1547835880"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\lv\rest_controller_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\lv\ion_auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\lv\front_lang.php" crc="1549906005"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\lv\auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\lv\api_lang.php" crc="1549539432"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\fr\rest_controller_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\fr\ion_auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\fr\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\fr\front_lang.php" crc="1549905995"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\fr\auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\fr\api_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\en\rest_controller_lang.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\en\ion_auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\en\front_lang.php" crc="1554142963"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\en\auth_lang.php" crc="1546933333"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\language\en\api_lang.php" crc="1549539432"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\hooks\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\helpers\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\helpers\db_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\helpers\date_helper.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\core\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\api\Points.php" crc="1550003370"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\api\Code.php" crc="1549563429"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\api\Cities.php" crc="1549897461"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\admin\Points.php" crc="1554135972"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\admin\Pings.php" crc="1549463628"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\admin\Pages.php" crc="1549478388"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\admin\Copy.php" crc="1554141309"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\admin\Cities.php" crc="1549473548"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Welcome.php" crc="1552982350"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Point.php" crc="1554145670"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Ping.php" crc="1549805247"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Login.php" crc="1552995141"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Guide.php" crc="1552982529"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\controllers\Auth.php" crc="1549388527"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\user_agents.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\routes.php" crc="1550655447"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\rest.php" crc="1547300485"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\profiler.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\mimes.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\migration.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\memcached.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\ion_auth.php" crc="1547990532"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\hooks.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\foreign_chars.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\doctypes.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\database.php" crc="1549891341"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\constants.php" crc="1554142622"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\config.php" crc="1554105486"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\autoload.php" crc="1547837015"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\config\_database.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\cache\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\index.html" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\application\.htaccess" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\index.php" crc="1543518283"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\index.html" crc="1549565521"/>
+		<file name="C:\open\OSPanel\domains\localhost\audio.tricypolitain.com\.htaccess" crc="1546015622"/>
+	</filescache>
+</project>

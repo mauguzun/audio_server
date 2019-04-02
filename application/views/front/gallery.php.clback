@@ -1,0 +1,55 @@
+
+    
+    <!-- Portfolio -->
+    <section class="portfolio white-bg hover-show pad-t-b-130">
+     
+      <!-- Item Start -->
+      <div class="items popup-gallery with-space col-4"> 
+        
+		
+		<? foreach  ($points as $point ) :?>
+        <!-- ITEM -->
+        <div class="cbp-item portfolio-item web mob-app photo ui">
+          <article>
+            <div class="portfolio-image"> 
+            
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="https://audio.tricypolitain.com//uploads/1255.png" alt="First slide">
+							</div>
+
+						</div>	<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="https://audio.tricypolitain.com//uploads/1255.png" alt="First slide">
+							</div>
+
+						</div>
+
+			</div>
+		
+
+
+              <div class="portfolio-overlay"></div>
+              <div class="position-bottom"> 
+			  
+			  <a href="https://audio.tricypolitain.com//uploads/1255.png" class="img-pop icon" title="<?= $point['title']?>"><i class="icon-magnifier"></i></a>
+                <a href="<?= base_url().'point/'. $point['id']?>"><p><?= $point['title']?></p></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <? endforeach; ?>
+      
+
+		</div>
+ 
+  </section>
+
+  <style>
+    .img{
+		width:100%;height:200px;object-fit:cover;
+	}
+  </style>
