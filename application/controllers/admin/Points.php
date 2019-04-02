@@ -47,10 +47,12 @@ class Points extends CI_Controller
 
 
 
-		if($this->form_validation->run() === TRUE){
+		if($this->form_validation->run() === TRUE)
+		{
 
-			foreach($_POST['img'] as $img)
-			{
+
+			$this->Crudmodel->delete(['point_id'=>$id],'img');
+			foreach($_POST['img'] as $img){
 				$this->Crudmodel->update_or_insert(
 					[
 						'img'=>$img,
@@ -95,8 +97,7 @@ class Points extends CI_Controller
 		$this->form_validation->set_rules('title','title', 'trim|required');
 		$this->form_validation->set_rules('mp3','mp3', 'trim|required');
 
-		if($this->form_validation->run() === TRUE)
-		{
+		if($this->form_validation->run() === TRUE){
 
 			$this->Crudmodel->update_or_insert([
 					'point_id'=>$id,
@@ -137,8 +138,7 @@ class Points extends CI_Controller
 
 
 
-		if($this->form_validation->run() === TRUE)
-		{
+		if($this->form_validation->run() === TRUE){
 
 
 
@@ -149,8 +149,7 @@ class Points extends CI_Controller
 			unset($postCopy['img']);
 			$id = $this->Crudmodel->add($postCopy,$this->controller);
 
-			foreach($_POST['img'] as $img)
-			{
+			foreach($_POST['img'] as $img){
 				$this->Crudmodel->update_or_insert(
 					[
 						'img'=>$img,
@@ -189,15 +188,16 @@ class Points extends CI_Controller
 		$query_translate = $this->Crudmodel->get_all("points_translate");
 
 		$city            = [];
-		foreach($this->Crudmodel->get_all('cities') as $value){
+		foreach($this->Crudmodel->get_all('cities') as $value)
+		{
 			$city[$value['id']] = $value['title'];
 		}
 
 
 		$translate = [];
-		foreach($query_translate as $row){
-			if( ! array_key_exists( $row['point_id'] , $translate )  )
-			{
+		foreach($query_translate as $row)
+		{
+			if( ! array_key_exists( $row['point_id'] , $translate )  ){
 				$translate[$row['point_id']] = [];
 			}
 			$translate[ $row['point_id'] ][$row['lang_code']] = [
@@ -211,12 +211,11 @@ class Points extends CI_Controller
 
 
 		$data['data'] = [];
-		foreach($query as & $row)
-		{
-			if( ! array_key_exists( 'translate' , $row )  )
-			{
+		foreach($query as & $row){
+			if( ! array_key_exists( 'translate' , $row )  ){
 				$row['translate'] = "";
-				foreach($this->lang_array(true) as $key=>$lang){
+				foreach($this->lang_array(true) as $key=>$lang)
+				{
 
 					$title = isset($translate[$row['id']]) &&
 					array_key_exists($key,$translate[$row['id']]) ?
@@ -258,8 +257,7 @@ class Points extends CI_Controller
 
 
 
-		if( ! $this->upload->do_upload('file'))
-		{
+		if( ! $this->upload->do_upload('file')){
 			$this->session->set_flashdata('message', $this->upload->display_errors());
 			echo json_encode(['error'=>true,'message'=>$this->upload->display_errors()]);
 			return ;
@@ -293,7 +291,8 @@ class Points extends CI_Controller
 
 	public function delete($id)
 	{
-		if($id == 1){
+		if($id == 1)
+		{
 			redirect(base_url().'admin/'.$this->controller);
 		}
 
@@ -315,8 +314,7 @@ class Points extends CI_Controller
 	private function _set_data($row = null)
 	{
 
-		foreach(['title'] as $input)
-		{
+		foreach(['title'] as $input){
 			$this->data['controls'][$input] = form_input($this->inputarray->getArray($input,
 					'text',$input, isset($row)? $row[$input]:NULL ,TRUE));
 
@@ -337,7 +335,8 @@ class Points extends CI_Controller
 
 		$cities = [];
 
-		foreach($this->Crudmodel->get_all('cities') as $value){
+		foreach($this->Crudmodel->get_all('cities') as $value)
+		{
 			$cities[$value['id']] = $value['title'];
 		}
 
@@ -350,8 +349,7 @@ class Points extends CI_Controller
 
 
 
-		foreach(['lat','lng'] as $input)
-		{
+		foreach(['lat','lng'] as $input){
 			$this->data['controls'][$input] = form_input($this->inputarray->getArray($input,
 					'text',$input, isset($row)? $row[$input]:NULL ,TRUE));
 
